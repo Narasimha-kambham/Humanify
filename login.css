@@ -8,8 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100hv;
-  margin-top: 100px;
+  min-height: 100vh;
   color: #3cb371;
 }
 
@@ -61,7 +60,6 @@ button:hover {
 }
 a {
   text-decoration: none;
-  margin-top: 20px;
-  line-height: 20px;
+  margin-top: 3rem;
   padding: 10px;
 }
