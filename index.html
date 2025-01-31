@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sustainable-Development</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="navIcon">
+            <a href="#"
+              ><img src="./Assets/Logo.png" alt="Logo" style="max-width: 120px"
+            /></a>
+          </li>
+          <li class="poppins-medium hideOnMobile"><a href="Home">Home</a></li>
+          <li class="poppins-medium hideOnMobile">
+            <a href="Events">About us</a>
+          </li>
+          <li class="poppins-medium hideOnMobile"><a href="Blog">Blog</a></li>
+          <li>
+            <button class="solidBtn hideOnMobile" id="login">
+              <a href="./login.html" style="color: white">Log In</a>
+            </button>
+          </li>
+          <li>
+            <button class="ghostBtn hideOnMobile">
+              <a href="./signUp.html" style="color: #3cb371">Sign Up</a>
+            </button>
+          </li>
+          <li class="navIcon" id="menu">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </li>
+        </ul>
+        <ul id="sideBar">
+          <li class="navIcon" id="close">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+          </li>
+          <li class="navIcon">
+            <a href="#"
+              ><img src="./Assets/Logo.png" alt="Logo" style="width: 120px"
+            /></a>
+          </li>
+          <li class="poppins-medium"><a href="Homke">Home</a></li>
+          <li class="poppins-medium"><a href="Events">our initiatives</a></li>
+          <li class="poppins-medium"><a href="Blog">Blog</a></li>
+          <li>
+            <button class="solidBtn">Log In</button>
+          </li>
+          <li>
+            <button class="ghostBtn">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section id="Home">
+      <div class="heroSection">
+        <div class="heroContent">
+          <h1 class="poppins-extrabold">
+            There are no passengers on <br />spaceship earth. <br />
+            We are all crew.
+          </h1>
+          <p class="poppins-light">
+            You never change things by fighting the existing reality. To
+            change<br />
+            something, build a new model that makes the existing model obsolete.
+          </p>
+          <button class="solidBtn">Read more...</button>
+        </div>
+        <div class="heroImg">
+          <img src="./Assets/heroImg.png" alt="Humanity" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="banner">
+        <div class="counter">
+          <h1 class="poppins-extrabold count" data-target="50000">0</h1>
+          <p class="poppins-regular">Events</p>
+        </div>
+        <div class="counter">
+          <h1 class="poppins-extrabold count" data-target="10000">0</h1>
+          <p class="poppins-regular">organization</p>
+        </div>
+        <div class="counter">
+          <h1 class="poppins-extrabold count" data-target="200000">0</h1>
+          <p class="poppins-regular">Beneficiaries</p>
+        </div>
+        <svg
+          width="100%"
+          id="svg"
+          viewBox="0 0 1440 250"
+          xmlns="http://www.w3.org/2000/svg"
+          class="transition duration-300 ease-in-out delay-150"
+          style="position: absolute; bottom: 0"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="54%" y1="0%" x2="46%" y2="100%">
+              <stop offset="5%" stop-color="#3cb371"></stop>
+              <stop offset="95%" stop-color="#fbfb2"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            d="M 0,400 L 0,150 C 96.76153846153849,127.1025641025641 193.52307692307699,104.2051282051282 260,110 C 326.476923076923,115.7948717948718 362.6692307692307,150.2820512820513 440,170 C 517.3307692307693,189.7179487179487 635.8000000000002,194.66666666666666 738,203 C 840.1999999999998,211.33333333333334 926.1307692307694,223.05128205128207 994,200 C 1061.8692307692306,176.94871794871793 1111.6769230769232,119.12820512820512 1183,105 C 1254.3230769230768,90.87179487179488 1347.1615384615384,120.43589743589743 1440,150 L 1440,400 L 0,400 Z"
+            stroke="none"
+            stroke-width="0"
+            fill="url(#gradient)"
+            fill-opacity="1"
+            class="transition-all duration-300 ease-in-out delay-150 path-0"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <section id="Events">
+      <h1
+        class="poppins-extrabold"
+        style="
+          font-size: xx-large;
+          color: #3cb371;
+          text-align: center;
+          font-size: 3rem;
+          margin-top: 2rem;
+        "
+      >
+        Our Activities
+      </h1>
+      <div class="sasdev">
+        <div class="card-container">
+          <div class="card">
+            <div class="cardImg">
+              <img src="./Assets/poverty.jpg" />
+            </div>
+            <div class="card-content">
+              <h2 class="poppins-bold">No Poverty</h2>
+              <p class="poppins-medium">
+                “end poverty in all its forms everywhere.”<br />Progress on this
+                goal is facing compounding threats;<br />a global pandemic,
+                geopolitical conflicts, and<br />varying reactions to climate
+                change, among others.<br />
+                The UN has expressed its realistic assessment that<br />
+              </p>
+              <button><a href="./poverty.html">Read More</a></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImg">
+              <img src="./Assets/Hunger.jpeg" />
+            </div>
+            <div class="card-content">
+              <h2 class="poppins-bold">Zero Hunger</h2>
+              <p class="poppins-medium">
+                "End hunger, achieve food security and<br />improve nutrition
+                and promote sustainable<br />
+                agriculture.” The number of people<br />experiencing hunger
+                globally and suffering<br />from food insecurity has been rising
+                gradually.<br />Food Sovereignty is how we can achieve<br />this
+                goal and end.
+              </p>
+              <button><a href>Read More</a></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImg">
+              <img src="./Assets/Goodhealth.jpeg" />
+            </div>
+            <div class="card-content">
+              <h2 class="poppins-bold">Good Health and Well-Being</h2>
+              <p class="poppins-medium">
+                "Good Health and Well-being." The progress<br />on this goal has
+                also faced compounding threats<br />because of the climate
+                crisis and COVID-19 Pandemic.<br />The pandemic has threatened
+                health care systems, as<br />well as stalled or reversed
+                reproductive health.
+              </p>
+              <button><a href>Read More</a></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImg">
+              <img src="./Assets/QOE.jpeg" />
+            </div>
+            <div class="card-content">
+              <h2 class="poppins-bold">Quality of Education</h2>
+              <p class="poppins-medium">
+                "Quality Education” Education and the achievement<br />of SDG 4
+                ensures inclusive and equitable quality<br />education and
+                promotes lifelong learning opportunities<br />for all. This goal
+                is a foundational aspect to<br />building sustainable
+                environment.
+              </p>
+              <button><a href>Read More</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Blog">
+      <div class="container">
+        <div class="container-left">
+          <h1 class="poppins-extrabold">
+            See what our partners<br />Love about us!!
+          </h1>
+          <p class="poppins-medium">Wew are happy to always serve you....</p>
+          <button>Read More About Our success stories....</button>
+        </div>
+        <div class="container-right">
+          <div class="card">
+            <img src="./Assets/user1.jpeg" alt="User1" />
+            <div class="card-content">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <div class="card-details">
+                <p class="poppins-medium">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+                <h4 class="poppins-bold">- Mr.Ram Charan</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Assets/user2.jpeg" alt="User2" />
+            <div class="card-content">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <div class="card-details">
+                <p class="poppins-medium">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Ipsa, nesciunt? Eos, voluptates!
+                </p>
+                <h4 class="poppins-bold">- Mr.Ram Charan</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Assets/user3.png" alt="User3" />
+            <div class="card-content">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <div class="card-details">
+                <p class="poppins-medium">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h4 class="poppins-bold">- Mr.Ram Charan</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <form id="feedbackForm" style="color: #f6511d">
+        <label for="email">
+          <h2 class="poppins-bold">Email</h2>
+          <input type="email" placeholder="Enter Your Email" />
+        </label>
+        <label for="Name">
+          <h2 class="poppins-bold">Password</h2>
+          <input type="text" placeholder="Enter Your passsword" />
+        </label>
+        <label for="review">
+          <h2 class="poppins-bold">Your Review Matters Alot...</h2>
+          <textarea name="testimony" id="review"></textarea>
+        </label>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footerContent">
+        <div class="footer-section">
+          <h3 class="poppins-medium">Company</h3>
+          <ul>
+            <li><a href="#" class="poppins-light">About Us</a></li>
+            <li><a href="#" class="poppins-light">Our Team</a></li>
+            <li><a href="#" class="poppins-light">Careers</a></li>
+            <li><a href="#" class="poppins-light">News & Media</a></li>
+            <li><a href="#" class="poppins-light">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="poppins-medium">Services</h3>
+          <ul>
+            <li><a href="#" class="poppins-light">Donors</a></li>
+            <li><a href="#" class="poppins-light">Mass Helpers</a></li>
+            <li><a href="#" class="poppins-light">Reservations</a></li>
+            <li><a href="#" class="poppins-light">Tax policy</a></li>
+            <li><a href="#" class="poppins-light">Receivers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="poppins-medium">Support</h3>
+          <ul>
+            <li><a href="#" class="poppins-light">Help Center</a></li>
+            <li><a href="#" class="poppins-light">FAQs</a></li>
+            <li><a href="#" class="poppins-light">Cancellation Policy</a></li>
+            <li><a href="#" class="poppins-light">Privacy Policy</a></li>
+            <li><a href="#" class="poppins-light">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="poppins-medium">Resources</h3>
+          <ul>
+            <li><a href="#" class="poppins-light">Blog</a></li>
+            <li><a href="#" class="poppins-light">Community</a></li>
+            <li><a href="#" class="poppins-light">Destination Insights</a></li>
+            <li><a href="#" class="poppins-light">Customer Reviews</a></li>
+            <li><a href="#" class="poppins-light">Affiliate Program</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footerBottom">
+        <div class="footerImage">
+          <img src="./assets/Logo.png" alt="Travelopedia" />
+        </div>
+        <div class="socialLinks">
+          <div class="youtube"><i class="fa-brands fa-youtube"></i></div>
+          <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+          <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+          <div class="watsapp"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
